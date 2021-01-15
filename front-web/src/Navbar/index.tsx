@@ -1,11 +1,10 @@
 import './styles.css';
-import { ReactComponent as Logo} from './delivery.svg';
+import { ReactComponent as Logo} from './unilogo.svg';
 
 function Navbar(){
-    return(
+    return( 
         <nav className = "main-navbar">
-            <Logo/>
-            <a href="home" className='logo-text'>UniSalad</a>
+            <a href="home" className='logo-text'><Logo/></a>
         </nav>
     )
 }
