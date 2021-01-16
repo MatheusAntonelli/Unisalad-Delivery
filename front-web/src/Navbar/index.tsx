@@ -1,10 +1,12 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles.css';
 import { ReactComponent as Logo} from './unilogo.svg';
 
 function Navbar(){
     return( 
         <nav className = "main-navbar">
-            <a href="home" className='logo-text'><Logo/></a>
+            <Link to="/" className='logo-text'><Logo/></Link>
         </nav>
     )
 }
