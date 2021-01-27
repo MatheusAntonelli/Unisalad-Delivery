@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 export type Product = {
     id: number;
     name: string;
+    quantity: number;
     price: number;
     description: string;
     imageUri: string;

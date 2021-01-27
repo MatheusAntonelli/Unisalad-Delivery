@@ -1,4 +1,5 @@
 import { formatPrice } from "./helpers";
+import ProductsList from "./ProductsList";
 
 type Props = {
      amount: number;
@@ -8,12 +9,14 @@ type Props = {
 
 function OrderSummary({amount, totalPrice, onSubmit}: Props){
     return( 
+         
          <div className="order-summary-container">
               <div className="order-summary-content">
                  <div>
                  <span className="amount-selected-container">
                         <strong className="amount-selected">{amount}</strong> 
-                        PEDIDOS SELECIONADOS
+                        PRATOS SELECIONADOS
+                         
                     </span>
                     <span className="order-summary-total">
                          <strong className="amount-selected">
@@ -26,6 +29,7 @@ function OrderSummary({amount, totalPrice, onSubmit}: Props){
                  onClick={onSubmit}
                  >
                      FAZER PEDIDO
+                     
                  </button>
               </div>
          </div>

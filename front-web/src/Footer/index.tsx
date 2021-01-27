@@ -7,9 +7,9 @@ import {ReactComponent as LinkedinIcon} from './linkedin.svg';
 function Footer(){
     return( 
         <footer className = "main-footer">
-             Sistema de delivery - UniSalad
+             UniSalad - Since 2020
              <div className = "footer-icons">
-                 <a href="https://https://www.instagram.com/uni.salad/" target= "_new">
+                 <a href="https://www.instagram.com/uni.salad/" target= "_new">
                     <InstagramIcon />
                  </a> 
                  <a href="https://www.linkedin.com/company/unisalad/" target= "_new">

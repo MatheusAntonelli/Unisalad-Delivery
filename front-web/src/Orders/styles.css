@@ -292,5 +292,12 @@
       width: 100%;
     }
   }
+.order-card-btn{
+  border-radius: 50%;
+  border: 0px;
+  color: var(#000000);
+  background-color: #008E5B;
+  
+}
 
 

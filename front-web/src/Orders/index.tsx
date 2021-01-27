@@ -16,7 +16,7 @@ function Orders(){
     const[selectedProducts, setSelectedProducts] = useState<Product[]>([]);
     const[orderLocation, setOrderLocation] = useState<OrderLocationData>(); 
     const totalPrice = selectedProducts.reduce((sum, item) => {
-        return sum + item.price
+        return  sum + item.price
     }, 0   )
 
     useEffect(() => {
